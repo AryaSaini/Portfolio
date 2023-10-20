@@ -1,0 +1,51 @@
+h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.heading {
+    margin-block: 10px;
+    position: relative;
+    padding: 20px;
+    background: #444;
+    color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background: linear-gradient(45deg, #009dff, #cc1498);
+    opacity: 0.5;
+    border-radius: 10px;
+}
+
+.top {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.item a {
+    color: #000000;
+    flex-grow: 15;
+    font-weight: bold;
+    font-size: larger;
+    position: relative;
+    text-decoration: solid;
+}
+
+.sec-1 {
+    margin-block: 10px;
+    padding: 20px;
+    background: #444;
+    color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background: linear-gradient(45deg, #009dff, #cc1498);
+    opacity: 0.5;
+    border-radius: 10px;
+}
+.about {
+    text-align: center;
+}
+
+.sec-2 {
+    border-style: inset;
+}

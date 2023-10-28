@@ -14,7 +14,8 @@ h1 {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    border: 2px solid transparent; /* added transparent border*/
+    border: 2px solid transparent;
+    /* added transparent border*/
     border-radius: 25px;
 }
 
@@ -41,7 +42,8 @@ h1 {
     background: linear-gradient(45deg, #000000, #848384);
     opacity: 0.5;
     border-radius: 10px;
-    border: 2px solid black transparent;  /* added transparent border */
+    border: 2px solid black transparent;
+    /* added transparent border */
     border-radius: 25px;
 }
 
@@ -61,7 +63,15 @@ h1 {
     color: black;
     font-weight: bold;
 }
-.my-info{
+
+.work {
+    text-align: center;
+    font-weight: bolder;
+    text-decoration: underline;
+    font-size: larger;
+}
+
+.my-info {
     display: flex;
     color: black;
     display: flex;
@@ -71,21 +81,72 @@ h1 {
     opacity: 50%;
     border-radius: 25px
 }
-.horiseon {
- display: inline-block;
-   width: 200px;
-   height: 200px;
-   overflow: hidden;
+
+.my-worksec {
+    border-style: outset;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
+
+.horiseon {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+}
+
 .horiseon img {
     width: 100%;
     height: auto;
 }
 
-.head-2 {
+.my-work h2 {
     text-align: center;
 }
 
-.horseon h3 {
-    
+.flex-1 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.horiseon h3 {
+    text-align: center;
+}
+
+.project2 {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+}
+.project2 h3{
+ text-align: center;
+}
+.project2 img {
+    width: 100%;
+    height: auto;
+}
+
+.contact {
+    margin-block: 0.1px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    border: 2px solid black transparent;
+    /* added transparent border */
+    border-radius: 25px;
+}
+
+.contact h2{
+    text-align: center;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 600px) {
+    .nav a {
+        display: block;
+        text-align: center;
+        margin-bottom: 10px;
+    }
 }

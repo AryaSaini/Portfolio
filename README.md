@@ -31,3 +31,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
 In this project we were told to create a portfolio. In this portfolio we needed sections that included information about me, projects that I have completed, a way to contact me, and a link to my resume. Throughout this project i was able to reinforce and enhance my skills in CSS and HTML. 
 
 ## Project 
+https://aryasaini.github.io/portfolio/
+
+## SS of Project 
+<img src="ProjectSS.jpg">
